@@ -1,0 +1,77 @@
+@charset "utf 8";
+/* styles de Ma Boutique. Setti BELKACEM */
+
+body, html {
+    font-family: 'Raleway', sans-serif;
+    background: lightgray;
+}
+
+#container {
+    background-image: url('../imgs/fond.png');
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 4px 2px 4px 2px gray;
+}
+
+header {
+    background: white;
+}
+
+.entete {
+    width: 100%;
+    height: 100px;
+}
+
+.logo {
+    width: 40%;
+    float: left;
+}
+
+.logo h1 {
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+    font-style: oblique;
+    color: black;
+}
+
+.logo img {
+    margin-left: 10px;
+}
+
+.aide {
+    width: 30%;
+    float: left;
+}
+
+.article {
+    width: 30%;
+    float: left;
+    margin-bottom: 10px;
+    background: lightseagreen;
+}
+
+.article h3 {
+    border-bottom: 1px solid white;
+   
+}
+
+header nav {
+    width: 100%;
+    height: 50px;
+    background: lightseagreen;  
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+header nav ul li a {
+    text-decoration: none;
+}
